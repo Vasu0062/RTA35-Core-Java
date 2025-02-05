@@ -1,5 +1,7 @@
 package com.learning.core.controlstatements;
 
+import java.util.stream.Collectors;
+
 public class ConditionalStatements {
 
         public static void main(String[] args) {
@@ -8,6 +10,11 @@ public class ConditionalStatements {
 
             ifElseStatement();
             System.out.println("Main method ended");
+
+           // String str = "Geeks\nFor\nGeeks\ntest";
+          //  System.out.println(str.lines().collect(Collectors.toList()));
+           // System.out.println(str.lines().collect(Collectors.toSet()));
+
         }
 
 
@@ -28,5 +35,7 @@ public class ConditionalStatements {
 
             System.out.println("exiting from ifElseStatement");
         }
+
     }
+
 
